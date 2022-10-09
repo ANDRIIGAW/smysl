@@ -1,0 +1,13 @@
+<html>
+    <title>WaterinTap</title>
+    <h1>WaterinTap</h1>
+
+    <div class="" article_list>
+        {% for article in articles %}
+            <div class="artycle">
+                <h2 class="article_title">{{ article.title }}</h2>
+                <p class="article_summary">{{ article.summary }}</p>
+            </div>
+        {% endfor %}    
+    </div>
+</html>
